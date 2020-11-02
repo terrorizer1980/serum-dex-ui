@@ -7,6 +7,7 @@ import { WalletContextValues } from './types';
 
 export const WALLET_PROVIDERS = [
   { name: 'sollet.io', url: 'https://www.sollet.io' },
+  { name: 'mathwallet', url: 'https://www.mathwallet.org' }
 ];
 
 const WalletContext = React.createContext<null | WalletContextValues>(null);
@@ -41,9 +42,9 @@ export function WalletProvider({ children }) {
       let keyToDisplay =
         walletPublicKey.length > 20
           ? `${walletPublicKey.substring(0, 7)}.....${walletPublicKey.substring(
-              walletPublicKey.length - 7,
-              walletPublicKey.length,
-            )}`
+            walletPublicKey.length - 7,
+            walletPublicKey.length,
+          )}`
           : walletPublicKey;
       notify({
         message: 'Wallet update',
