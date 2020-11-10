@@ -21,8 +21,8 @@ const Wrapper = styled.div`
   background-color: #0d1017;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  padding: 0px 30px;
+  justify-content: flex-start;
+  padding: 0px 16px;
   flex-wrap: wrap;
 `;
 const LogoWrapper = styled.div`
@@ -45,7 +45,7 @@ const EXTERNAL_LINKS = {
   '/developer-resources': 'https://serum-academy.com/en/developer-resources/',
   '/explorer': 'https://explorer.solana.com',
   '/srm-faq': 'https://projectserum.com/srm-faq',
-  '/swap': 'https://swap.projectserum.com'
+  '/swap': 'https://dappcn.mathwallet.xyz/serumswap/'
 };
 
 export default function TopBar() {
@@ -146,6 +146,7 @@ export default function TopBar() {
             backgroundColor: 'transparent',
             display: 'flex',
             alignItems: 'flex-end',
+            flexWrap:'wrap',
             flex: 1,
           }}
         >

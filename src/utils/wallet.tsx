@@ -17,11 +17,11 @@ export function WalletProvider({ children }) {
 
   const [savedProviderUrl, setProviderUrl] = useLocalStorageState(
     'walletProvider',
-    'https://www.sollet.io',
+    'https://www.mathwallet.org',
   );
   let providerUrl;
   if (!savedProviderUrl) {
-    providerUrl = 'https://www.sollet.io';
+    providerUrl = 'https://www.mathwallet.org';
   } else {
     providerUrl = savedProviderUrl;
   }
