@@ -1476,9 +1476,10 @@
     bn.js "^5.1.2"
     buffer-layout "^1.2.0"
 
-"@project-serum/sol-wallet-adapter@git+https://github.com/mathwallet/sol-wallet-adapter.git":
-  version "0.1.0"
-  resolved "git+https://github.com/mathwallet/sol-wallet-adapter.git#c444829cd6ebd87ac006ac55f035e2b792c50f28"
+"@project-serum/sol-wallet-adapter@0.2.4":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@project-serum/sol-wallet-adapter/-/sol-wallet-adapter-0.2.4.tgz#205adc303aea38d6c2043cb644fd70ba2fa758e0"
+  integrity sha512-NlFD5FumLddrHsRB1Dco7adiproUvXFC8kRxNg8ptEMD7k9p5gr8iKf6t06eARZAWQ7r90Bq1gEJc9GHlZ0c4Q==
   dependencies:
     bs58 "^4.0.1"
     eventemitter3 "^4.0.4"
